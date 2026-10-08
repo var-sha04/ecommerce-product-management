@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+nav {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+button,
+.btn {
+    background: #222;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 9px;
+    margin: 6px 0 15px;
+    box-sizing: border-box;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.delete {
+    color: #c0392b;
+    margin-left: 10px;
+}
